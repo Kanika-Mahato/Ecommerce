@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Aug-2021, 11:01:30 am
+    Author     : Kanika Mahato
+*/
+
+html{
+    scroll-behavior:smooth;
+}
+
+/********************************navbar***************************/
+.bg-teal,.btn-teal{
+    background-color: teal;
+}
+
+.text-teal{
+    color:teal;
+}
+.card .card-img-top{
+    width:100%;
+
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.carousel .carousel-indicators li{
+    width:30px;
+    height:5px;
+    border-radius: 0%;
+
+}
+.carousel-caption{
+    bottom:200px;
+}
+.remove_item_link{
+    color:#0000ff;
+}
+
+
+
+@media(max-width:576px){
+    body{
+        margin-top: 200px;
+    }
+    .carousel-caption{
+        bottom:20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+
